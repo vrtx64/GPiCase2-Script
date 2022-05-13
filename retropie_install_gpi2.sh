@@ -1,5 +1,5 @@
 #!/bin/bash
-filewebsite="https://raw.githubusercontent.com/RetroFlag/GPiCase2-Script/main"
+filewebsite="https://raw.githubusercontent.com/vrtx64/GPiCase2-Script/main"
 sleep 2s
 #Step 1) Check if root--------------------------------------
 if [[ $EUID -ne 0 ]]; then
@@ -26,7 +26,7 @@ wget --no-check-certificate -O  "lcdnext.sh" "$filewebsite""/retropielcdnext.sh"
 
 
 cd /etc/modprobe.d
-wget --no-check-certificate -O  "alsa-base.conf" "$filewebsite""/alsa-base.conf"
+#wget --no-check-certificate -O  "alsa-base.conf" "$filewebsite""/alsa-base.conf"
 
 
 #-----------------------------------------------------------
